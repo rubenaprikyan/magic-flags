@@ -5,6 +5,11 @@ Magic-Flags is a JavaScript library designed to simplify the management of flag 
 
 ![Magic-Flags Logo](logo.png)
 
+## Note: API Under Construction 🚧
+
+Magic-Flags is currently under construction and development, and as such, the API is still evolving. If you have suggestions for more intuitive or descriptive naming for any part of the API, we'd love to hear from you!
+Any recommendations on how to improve the usability of the library are highly welcome. If there's something you'd like to see in Magic-Flags, feel free to open an issue.
+
 ## Features
 
 - Easy to use API for flag state management.
