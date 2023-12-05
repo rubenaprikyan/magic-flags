@@ -1,13 +1,13 @@
 # Magic-Flags 🎩✨
 
-Unleash the magic of flags in your projects with 🎩✨ Magic-Flags! Effortlessly manage and toggle states like a wizard, and watch your codebase transform with a sprinkle of bitwise enchantment! 🌟🚀
+Unleash the magic of flags in your projects with 🎩✨ **Magic-Flags**! Effortlessly manage and toggle states like a wizard, and watch your codebase transform with a sprinkle of bitwise enchantment! 🌟🚀
 Magic-Flags is a JavaScript library designed to simplify the management of flag states using bitwise operations. It's perfect for scenarios where you need to toggle, set, or unset various states or permissions easily and efficiently.
 
 ![Magic-Flags Logo](logo.png)
 
 ## Note: API Under Construction 🚧
 
-Magic-Flags is currently under construction and development, and as such, the API is still evolving. If you have suggestions for more intuitive or descriptive naming for any part of the API, we'd love to hear from you!
+**Magic-Flags** is currently under construction and development, and as such, the API is still evolving. If you have suggestions for more intuitive or descriptive naming for any part of the API, we'd love to hear from you!
 Any recommendations on how to improve the usability of the library are highly welcome. If there's something you'd like to see in Magic-Flags, feel free to open an issue.
 
 ## Features
@@ -107,10 +107,10 @@ heroStates.clear();
 ```
 
 ## Why Magic Flags Is Fast
-The "Magic-Flags" library leverages the power of bitwise operations to manage state flags efficiently. Bitwise operations are incredibly fast because they are supported at the processor level and operate directly on the binary representation of numbers.
+The **Magic-Flags** library leverages the power of bitwise operations to manage state flags efficiently. Bitwise operations are incredibly fast because they are supported at the processor level and operate directly on the binary representation of numbers.
 
 ### Simple Example of Bitwise Operations
-Here's a simple illustration of how bitwise operations are used in "Magic-Flags"
+Here's a simple illustration of how bitwise operations are used in **Magic-Flags**
 
 ```js
 // Example flag values
