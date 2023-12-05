@@ -4,7 +4,7 @@
   "author": "Ruben Aprikyan",
   "license": "MIT",
   "description": "Magic-Flags: A JavaScript library revolutionizing the way you manage state flags. Perfect for developers seeking a blend of simplicity and power, Magic-Flags offers an intuitive API to manage and toggle state flags using bitwise operations. Whether it's for UI states, user permissions, or game development, Magic-Flags makes your conditional logic cleaner and your code more readable.",
-  "main": "index.js",
+  "main": "build/index.js",
   "keywords": [
     "flags",
     "bitwise",
@@ -38,6 +38,7 @@
     "@typescript-eslint/parser": "^6.13.2",
     "eslint": "^8.55.0",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jsdoc": "^46.9.0",
     "eslint-plugin-prettier": "^5.0.1",
     "lint-staged": "^15.2.0",
     "typescript": "^5.3.2"

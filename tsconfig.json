@@ -2,7 +2,7 @@
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
     "declaration": true,
-    "outDir": "./dist",
+    "outDir": "build",
 
     /* Language and Environment */
     "target": "esnext",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */

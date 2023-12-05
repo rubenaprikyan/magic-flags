@@ -8,10 +8,11 @@ module.exports = {
   extends: [
     'prettier',
     'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
+    'plugin:jsdoc/recommended',
+    'plugin:@typescript-eslint/recommended'
   ],
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'jsdoc'],
   ignorePatterns: ['**/dist/**'],
   rules: {
     'no-console': 'warn',
@@ -32,5 +33,7 @@ module.exports = {
       'single'
     ],
     'indent': ['error', 2],
+    '@typescript-eslint/indent': ['error', 2],
+    'jsdoc/check-indentation': 2
   },
 };
