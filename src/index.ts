@@ -14,7 +14,7 @@ interface FlagSet {
    * @param flag - The name of the flag to check.
    * @returns True if the flag is set, false otherwise.
    */
-  has: (flag: string) => boolean;
+  has: (flag: string | string[]) => boolean;
 
   /**
    * Enables (sets) the specified flag.
@@ -64,8 +64,21 @@ function createFlagSet(flagNames: string[]): FlagSet {
   let flags = 0;
   
   return {
-    has: (flag: string): boolean => {
+    has: (flag: string | string[]): boolean => {
       /** BETWISE AND */
+      if(Array.isArray(flag)) {
+        let hasAll = false;
+        let index = 0;
+
+        while(index < flag.length) {
+          let currentFlag = flag[index]  
+          hasAll = hasAll && ((flags & flag_values[currentFlag]) === flag_values[currentFlag])
+          index++;
+        }
+
+        return hasAll;
+      }
+
       return (flags & flag_values[flag]) === flag_values[flag];
     },
 
