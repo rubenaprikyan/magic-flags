@@ -43,7 +43,6 @@ In a web-based project management tool
 ```js
 const userPermissions = createFlagSet('CanEditProjects', 'CanViewReports', 'CanManageUsers');
 
-let editorPermissions = 0;
 userPermissions.enable('CanEditProjects');
 userPermissions.enable('CanViewReports');
 
@@ -115,8 +114,8 @@ Here's a simple illustration of how bitwise operations are used in **Magic-Flags
 ```js
 // Example flag values
 const FLAG_A = 1 << 0; // Binary: 0001
-const FLAG_B = 2 << 1; // Binary: 0010
-const FLAG_C = 4 << 2 ; // Binary: 0100
+const FLAG_B = 1 << 1; // Binary: 0010
+const FLAG_C = 1 << 2 ; // Binary: 0100
 
 // Combined flags
 let combinedFlags = 0
